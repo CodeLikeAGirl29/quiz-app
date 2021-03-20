@@ -13,15 +13,17 @@ const createQuestionSet = [
     text: 'How many teeth does a normal adult dog have?',
       ans1:'(a) 34',
       ans2: '(b) 42',
-      ans3: '(c) 24'
+      ans3: '(c) 24',
+      ans4: '(d) 52'
   },
 
   {
     number: 2,
-      text: 'What is a dog's most highly developed sense?',
+      text: 'What is a dogs most highly developed sense?',
       ans1: '(a) Taste',
       ans2: '(b) Sight',
-      ans3: '(c) Smell'
+      ans3: '(c) Smell',
+      ans4: '(d) Touch'
   },
 
   {
@@ -29,23 +31,33 @@ const createQuestionSet = [
       text: 'What is the scientific name for a dog?',
       ans1: '(a) Canis lupus familiaris',
       ans2: '(b) Felis catus',
-      ans3: '(c) Panther pardus'
+      ans3: '(c) Panther pardus',
+      ans4: '(d) Canis lupus'
   },
   {
     number: 4,
     text: 'What is the oldest dog breed in the world?',
       ans1: '(a) Basenji',
       ans2: '(b) Chow Chow',
-      ans3: '(c) Saint Bernard'
-  }
+      ans3: '(c) Saint Bernard',
+      ans4: '(d) Great Dane'
+  },
+  {
+    number: 5,
+    text: 'What medium-sized working dog is easily recognised by its thick fur and piercing blue eyes, looks almost like a wolf, is famous for pulling sleds in wintry conditions and is very similar looking to the Alaskan Malamute?',
+      ans1: '(a) Irish Wolfhound',
+      ans2: '(b) Siberian Husky',
+      ans3: '(c) Cane Corso',
+      ans4: '(d) Shiba Inu',
 ];
 
 //All Answers Object
 const ANSWERS = [
-  `(b) 42`,
-  `(c) Smell`,
-  `(a) Canis lupus familiaris`,
-  `(a) Basenji`
+  '(b) 42',
+  '(c) Smell',
+  '(a) Canis lupus familiaris',
+  '(a) Basenji',
+  '(b) Siberian Husky'
 ];
 
 /* Create arrays of questions and answers */
