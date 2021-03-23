@@ -1,0 +1,33 @@
+Quiz App Questions 
+ 
+* How many teeth does an adult dog have?
+    choice1: "50",
+    choice2: "36",
+    choice3: "25",
+    choice4: "42",
+
+* What is a dog's most highly developed sense?
+    choice1: "Touch",
+    choice2: "Sight",
+    choice3: "Smell",
+    choice4: "Sound",
+    
+
+ * What's the scientific name for a dog?
+    choice1: "Canis lupus familiaris",
+    choice2: "Felis catus",
+    choice3: "Panther pardus",
+    choice4: "Canis lupus",
+
+
+* What is the oldest dog breed in the world?
+    choice1: "Basenji",
+    choice2: "Saint Bernard",
+    choice3: "Chow Chow",
+    choice4: "Labrador Retriever",
+
+*What breed has the appearance of a wolf with piercing blue eyes and looks similiar to an Alaskan Malamute?
+    choice1: "Siberian Husky",
+    choice2: "Irish Wolfhound",
+    choice3: "Dachshund",
+    choice4: "Cane Corso",
