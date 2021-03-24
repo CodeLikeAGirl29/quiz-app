@@ -10,13 +10,8 @@ html, body {
 }
 
 body {
-	background: url('foggy-hand.jpg') fixed;
-	background-size: cover;
-	background-position: center;
 	text-align: center;
 	padding: 20px;
-	
-	font-family: 'Eater', cursive;
 }
 
 fieldset {
