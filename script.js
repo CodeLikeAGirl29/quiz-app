@@ -6,107 +6,87 @@ let displayCounter = counter + 1;
 const QUIZ = [
 // question one
 { 
-  question: "What is the capital city of the United States?",
+  question: "How many teeth does an adult dog have?",
   answers: [
-  "New York, NY",
-  "Washington, D.C.",
-  "Los Angeles, CA",
-  "Chicago, IL"
+  "42",
+  "24",
+  "30",
+  "55"
   ],
-  correctAnswerString: "Washington, D.C.",
+  correctAnswerString: "42",
 },
 // question two
 { 
-  question: "What is the capital city of Spain?",
+  question: "What is a dog's most highly developed sense?",
   answers: [
-  "Madrid",
-  "Barcelona", 
-  "San Sebasti&#225;n", 
-  "Pamplona"
+  "Hearing",
+  "Sight", 
+  "Smell", 
+  "Touch"
   ],
-  correctAnswerString: "Madrid",
+  correctAnswerString: "Smell",
 },
 //question three
 { 
-  question: "What is the capital city of France?",
+  question: "What is the scientific name for a dog",
   answers: [
-  "Marseille",
-  "Nice",
-  "Avignon",
-  "Paris" 
+  "Canis lupus familiaris",
+  "Felis catus",
+  "Panther pardus",
+  "Canis" 
   ],
-  correctAnswerString: "Paris",
+  correctAnswerString: "Canis lupus familiaris",
 },
 //question four
-{ question: "What is the capital city of Japan?",
+{ question: "What is the oldest known dog breed in the world?",
   answers: [
-  "Kyoto",
-  "Tokyo",
-  "Osaka",
-  "Hiroshima"
+  "Chow Chow",
+  "Saint Bernard",
+  "Basenji",
+  "Great Dane"
   ],
-  correctAnswerString: "Tokyo",
+  correctAnswerString: "Basenji",
 },
 // question five
-{ question: "What is the capital city of China?",
+{ question: "What medium-sized working dog is easily recognised by its thick fur and piercing blue eyes, looks almost like a wolf, is famous for pulling sleds in wintry conditions and is very similar looking to the Alaskan Malamute?",
   answers: [
-  "Sichuan",
-  "Shanghai",
-  "Beijing",
-  "Hainan"
+  "Siberian Husky",
+  "Irish Wolfhound",
+  "Akita",
+  "Cane Corso"
   ],
-  correctAnswerString: "Beijing",
+  correctAnswerString: "Siberian Husky",
 },
 //question six
-{ question: "What is the capital city of Australia?",
+{ question: "How many breeds of the domesticated dog exist in the world?",
   answers: [
-  "Canberra",
-  "Melbourne",
-  "Sydney",
-  "Perth"
+  "Around 150",
+  "Around 200",
+  "Around 450",
+  "Around 125"
   ],
-  correctAnswerString: "Canberra",
+  correctAnswerString: "Around 450",
 },
 //question seven
-{ question: "What is the capital city of Uganda?",
+{ question: "Which common physical characteristic does the Chow share with giraffes, polar bears, and Jersey cattle?",
   answers: [
-  "Lira",
-  "Masaka",
-  "Kampala",
-  "Soroti"
+  "Black tongue",
+  "The fur type",
+  "Claws/nails",
+  "Teeth"
   ],
-  correctAnswerString: "Kampala",
+  correctAnswerString: "Black tongue",
 },
 //question eight
-{ question: "What is the capital city of Germany?",
+{ question: "Which breed of dog is the character Snoopy from Charlie Brown?",
   answers: [
-  "Munich",
-  "Hamburg",
-  "Berlin",
-  "Nuremburg"
+  "Dalmation",
+  "Bloodhound",
+  "Beagle",
+  "Terrier"
   ],
-  correctAnswerString: "Berlin",
+  correctAnswerString: "Beagle",
 },
-//question nine
-{ question: "What is the capital city of Chile?",
-  answers: [
-  "Santa Cruz",
-  "Santiago",
-  "Puc&#243;n",
-  "Limache"
-  ],
-  correctAnswerString: "Santiago",
-},
-//question ten
-{ question: "What is the capital city of Switzerland?",
-  answers: [
-  "Bern",
-  "Lauterbrunnen",
-  "Davos",
-  "Burgdorf"
-  ],
-  correctAnswerString: "Bern",
- }
 ];
 
 
