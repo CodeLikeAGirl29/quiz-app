@@ -180,11 +180,11 @@ function nextQuestionButton () {
 // hide the quiz nav section
 function finalFeedback() {
   $('.next-button').on('click', function() {
-    if (counter === 10) {
+    if (counter === 8) {
       $('#quiz-questions').addClass('hide-display');
       $('#quiz-nav').addClass("hide-display");
       $('.feedback-page').removeClass('hide-display');
-      $('.final-score').append(`You got ${scoreCount}/10 questions right!`)
+      $('.final-score').append(`You got ${scoreCount}/8 questions right!`)
     }
   });
 }
