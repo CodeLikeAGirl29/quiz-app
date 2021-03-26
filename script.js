@@ -106,7 +106,7 @@ function startQuiz() {
 // retrieve the question with the index of the counter variable
 // display the question
 function generateQuestions(counter) {
-  if (counter < 10) {
+  if (counter < 8) {
     let currentQuestion = QUIZ[counter];
     let quizHTML = `
       <form>
@@ -125,8 +125,8 @@ function generateQuestions(counter) {
         <label for="question-option-four">${currentQuestion.answers[3]}</label>
       </fieldset>
       </form> 
-      <p>Question: ${counter + 1}/10</p>
-      <p>Score: ${scoreCount}/10</p>`;
+      <p>Question: ${counter + 1}/8</p>
+      <p>Score: ${scoreCount}/8</p>`;
     $('#quiz-questions').html(quizHTML);
   };
 }
@@ -134,7 +134,7 @@ function generateQuestions(counter) {
 
 //press on answer and receive a correct or wrong message
 function answerFeedback (counter) {
-  if (counter < 10) {
+  if (counter < 8) {
     let correctAnswer = QUIZ[counter].correctAnswerString;
     $('input[type=radio]').click(function(event) {
       $('.options').children('input').attr('disabled', true); 
