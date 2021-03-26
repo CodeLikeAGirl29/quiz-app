@@ -3,8 +3,8 @@
 
 <head>
     <title>Quiz App Project</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
     <meta name="description" content="How Much Do You Know About Dogs?" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
@@ -15,18 +15,29 @@
 <body>
     <section role="main" id="start-page">
         <div id="start-title">
-            <h2>Test Your Knowledge About Dogs!
-            </h2>
+            <h2>Test Your Knowledge About Dogs!</h2>
         </div>
         <div id="intro-page">
             <p>
-              A quick quiz for all dog lovers! “Did you ever walk into a room and forget why you walked in? I think that is how dogs spend their lives.” — Sue Murphy</p>
-            <img src="assets/5c58139beb3ce80fdc21cf03.png" alt="small and large dogs laying together">
+            A quick quiz for all dog lovers! “Did you ever walk into a room and forget why you walked in? I think that is how dogs spend their lives.” — Sue Murphy
+           <img src="assets/5c58139beb3ce80fdc21cf03.png" alt="small and large dogs laying together">
+            </p>
         </div>
         <div id="start-page-button">
-            <button id="js-start-button">Start</button>
-        </div>
-    </section>
-</body>
+    <button class="start-button" role="button">Start</button>
+  </section>
+  <section class="quiz-questions hide-display" id="quiz-questions">  
+  </section>
+  <section class="navigation">
+    <nav role="navigation" class="quiz-nav hide-display" id="quiz-nav">
+        <p><button class="next-button nav-button" role="button">Next</button></p>
+    </nav>
+  </section>
+  <section class="feedback-page hide-display" id="feedback-page">
+    <h1>Your results!</h1>
+    <p class="final-score"></p>
+    <button class="try-again-button" role="button">Try Again</button>
+  </section>
 
+</body>
 </html>
