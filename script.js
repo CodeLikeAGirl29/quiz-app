@@ -93,7 +93,7 @@ const QUIZ = [
 //Click on Start Button to set display of .start-page to none, 
 //and set .quiz-questions display:none to visible
 function startQuiz() {
-  $('.start-button').on('click', function(event) {
+  $('.button').on('click', function(event) {
     console.log('Hide start page and display questions');
     $('#quiz-questions').removeClass("hide-display");
     $('#start-page').addClass("hide-display");
